@@ -1,0 +1,14 @@
+	(1)
+VARIABLES	ssflag
+	
+firstedyear	-0.0138***
+	(0.000687)
+twicepublished	-0.136***
+	(0.0386)
+Constant	28.44***
+	(1.325)
+	
+Observations	4,126
+R-squared	0.091
+Standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	
