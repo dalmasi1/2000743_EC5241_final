@@ -17,7 +17,7 @@ do dataclearing.do
 do sample.do
 
 *5. Data aggregation
-do averaging.do
+do averaging&graph.do
 
 *6. Analysis
 do analysis.do
