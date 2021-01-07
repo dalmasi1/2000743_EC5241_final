@@ -4,5 +4,5 @@ pwd
 import delimited "all.csv", encoding(UTF-8)
 
 *Saving raw data for analysis
-save "C:\Users\David\Desktop\CEU\Coding\2000743_EC5241_final\data_raw.dta"
+save "C:\Users\David\Desktop\CEU\Coding\2000743_EC5241_final\data\data_raw.dta"
 

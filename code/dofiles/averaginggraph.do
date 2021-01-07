@@ -1,6 +1,6 @@
 clear
 cd C:\Users\David\Desktop\CEU\Coding\2000743_EC5241_final
-use "C:\Users\David\Desktop\CEU\Coding\2000743_EC5241_final\data_derived.dta"
+use "C:\Users\David\Desktop\CEU\Coding\2000743_EC5241_final\data\data_derived.dta"
 
 *Averaging:
 
@@ -34,7 +34,7 @@ twoway (bar ssflag century, sort) if !missing(century), ytitle(Mean of the addit
 outreg2 using graph.doc
 shellout using `"graph.doc"'
 seeout using "graph.txt"
-graph save "Graph" "C:\Users\David\Desktop\CEU\Coding\2000743_EC5241_final\Graph.gph"
+graph save "Graph" "C:\Users\David\Desktop\CEU\Coding\2000743_EC5241_final\output\Graph.gph"
 
-save "C:\Users\David\Desktop\CEU\Coding\2000743_EC5241_final\data_ssflag_century_aggregated.dta"
+save "C:\Users\David\Desktop\CEU\Coding\2000743_EC5241_final\data\data_ssflag_century_aggregated.dta"
 

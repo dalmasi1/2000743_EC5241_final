@@ -1,6 +1,6 @@
 clear
 
-use "C:\Users\David\Desktop\CEU\Coding\2000743_EC5241_final\data_raw.dta"
+use "C:\Users\David\Desktop\CEU\Coding\2000743_EC5241_final\data\data_raw.dta"
 
 *Renaming and labeling variables
 browse
@@ -86,7 +86,7 @@ gen twicepublished = firstedyear*secondedyear
 replace twicepublished = 1 if !missing(twicepublished)
 replace twicepublished = 0 if missing(twicepublished)
 
-save "C:\Users\David\Desktop\CEU\Coding\2000743_EC5241_final\data_derived.dta"
+save "C:\Users\David\Desktop\CEU\Coding\2000743_EC5241_final\data\data_derived.dta"
 
 *end of data formatting
 

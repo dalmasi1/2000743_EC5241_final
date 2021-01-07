@@ -1,5 +1,5 @@
 clear
-use "C:\Users\David\Desktop\CEU\Coding\2000743_EC5241_final\data_derived.dta"
+use "C:\Users\David\Desktop\CEU\Coding\2000743_EC5241_final\data\data_derived.dta"
 
 *Data Analysis
 
