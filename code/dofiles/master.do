@@ -10,11 +10,8 @@ do import.do
 *2. Installing useful packages for pater analysis
 do package.do
 
-*3. Data clearing
+*3. Data clearing and preparing the sample for analysis
 do dataclearing.do
-
-*4. Preparing the sample for analysis
-do sample.do
 
 *5. Data aggregation
 do averaginggraph.do

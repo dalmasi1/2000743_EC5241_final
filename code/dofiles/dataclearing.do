@@ -1,5 +1,7 @@
 clear
 
+cd C:\Users\David\Desktop\CEU\Coding\2000743_EC5241_final
+
 use "C:\Users\David\Desktop\CEU\Coding\2000743_EC5241_final\data\data_raw.dta"
 
 *Renaming and labeling variables
@@ -87,6 +89,8 @@ replace twicepublished = 1 if !missing(twicepublished)
 replace twicepublished = 0 if missing(twicepublished)
 
 save "C:\Users\David\Desktop\CEU\Coding\2000743_EC5241_final\data\data_derived.dta"
+
+clear
 
 *end of data formatting
 
